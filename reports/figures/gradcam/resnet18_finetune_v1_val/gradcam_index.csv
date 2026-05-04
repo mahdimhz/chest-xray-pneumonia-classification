@@ -1,0 +1,9 @@
+group,path,true_label,predicted_label,pneumonia_probability,target,output_path
+correct,data\raw\chest_xray\train\PNEUMONIA\person629_bacteria_2510.jpeg,1,1,0.9999997615814209,predicted,reports\figures\gradcam\resnet18_finetune_v1_val\correct_00000_true1_pred1.png
+correct,data\raw\chest_xray\train\PNEUMONIA\person549_bacteria_2307.jpeg,1,1,0.9999877214431763,predicted,reports\figures\gradcam\resnet18_finetune_v1_val\correct_00001_true1_pred1.png
+correct,data\raw\chest_xray\train\NORMAL\IM-0566-0001.jpeg,0,0,3.2363047921535326e-06,predicted,reports\figures\gradcam\resnet18_finetune_v1_val\correct_00002_true0_pred0.png
+correct,data\raw\chest_xray\train\PNEUMONIA\person321_bacteria_1488.jpeg,1,1,0.9999998807907104,predicted,reports\figures\gradcam\resnet18_finetune_v1_val\correct_00003_true1_pred1.png
+misclassified,data\raw\chest_xray\train\PNEUMONIA\person1469_virus_2547.jpeg,1,0,0.03953801840543747,predicted,reports\figures\gradcam\resnet18_finetune_v1_val\misclassified_00033_true1_pred0.png
+misclassified,data\raw\chest_xray\train\PNEUMONIA\person1022_virus_1712.jpeg,1,0,0.3909079134464264,predicted,reports\figures\gradcam\resnet18_finetune_v1_val\misclassified_00058_true1_pred0.png
+misclassified,data\raw\chest_xray\train\PNEUMONIA\person1416_virus_2427.jpeg,1,0,0.4703133702278137,predicted,reports\figures\gradcam\resnet18_finetune_v1_val\misclassified_00068_true1_pred0.png
+misclassified,data\raw\chest_xray\train\PNEUMONIA\person102_virus_189.jpeg,1,0,0.14872312545776367,predicted,reports\figures\gradcam\resnet18_finetune_v1_val\misclassified_00075_true1_pred0.png
